@@ -22,7 +22,7 @@ const ResultText = ({ data }: { data: any }) => {
               <br />
               <br />
               <br />
-              <Heading>USER INFO</Heading>
+              <Heading style={{ color: "blue" }}>USER INFO</Heading>
               <div>name : {innerData["- 성함"]}</div>
               <div>email : {innerData["아이디"]}</div>
               <Heading>AA Section</Heading>
